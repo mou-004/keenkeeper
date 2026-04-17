@@ -2,7 +2,6 @@
 import React, { useEffect, useState } from "react";
 
 import { PieChart, Pie, Cell, Tooltip, Legend } from "recharts";
-
 const StatsPage = () => {
   const [data, setData] = useState([]);
   const [mounted, setMounted] = useState(false);
