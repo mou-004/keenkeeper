@@ -1,3 +1,4 @@
+
 import React from "react";
 import { VscAdd } from "react-icons/vsc";
 
@@ -25,32 +26,37 @@ const Banner = () => {
           </button>
         </div>
 
-        {/* 4 Summary Cards (Requirement 2.2) */}
+        {/* 4 Summary Cards */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-16">
-          <div className="bg-base-100 p-6 rounded-2xl shadow-sm border border-base-300">
+          
+          <div className="bg-base-100 p-6 rounded-2xl shadow-sm border border-base-300 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
             <p className="text-xs font-bold uppercase tracking-wider text-base-content/50">
               Total Friends
             </p>
             <h3 className="text-3xl font-black mt-1">10</h3>
           </div>
-          <div className="bg-base-100 p-6 rounded-2xl shadow-sm border border-base-300 text-error">
+
+          <div className="bg-base-100 p-6 rounded-2xl shadow-sm border border-base-300 text-error hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
             <p className="text-xs font-bold uppercase tracking-wider opacity-70">
               On Track
             </p>
-            <h3 className="text-3xl font-black mt-1">3</h3>
+            <h3 className="text-3xl font-black mt-1">5</h3>
           </div>
-          <div className="bg-base-100 p-6 rounded-2xl shadow-sm border border-base-300 text-warning">
+
+          <div className="bg-base-100 p-6 rounded-2xl shadow-sm border border-base-300 text-warning hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
             <p className="text-xs font-bold uppercase tracking-wider opacity-70">
-             Need Attention
+              Need Attention
             </p>
-            <h3 className="text-3xl font-black mt-1">6</h3>
+            <h3 className="text-3xl font-black mt-1">5</h3>
           </div>
-          <div className="bg-base-100 ms:p-6 pt-6 rounded-2xl shadow-sm border border-base-300 text-success">
+
+          <div className="bg-base-100 ms:p-6 pt-6 rounded-2xl shadow-sm border border-base-300 text-success hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
             <p className="text-xs font-bold uppercase tracking-wider opacity-70">
               Interactions This Month
             </p>
             <h3 className="text-3xl font-black mt-1">12</h3>
           </div>
+
         </div>
       </div>
     </section>
