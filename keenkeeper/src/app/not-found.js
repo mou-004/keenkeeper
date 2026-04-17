@@ -17,7 +17,7 @@ export default function NotFound() {
         </p>
       </div>
 
-      {/* ব্যাক টু হোম বাটন */}
+    
       <Link
         href="/"
         className="mt-8 px-8 py-3   font-bold   shadow-lg  btn"
