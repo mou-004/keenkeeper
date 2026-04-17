@@ -22,7 +22,7 @@ export default function NotFound() {
         href="/"
         className="mt-8 px-8 py-3   font-bold   shadow-lg  btn"
       >
-        হBack to Home
+        Back to Home
       </Link>
     </div>
   );
