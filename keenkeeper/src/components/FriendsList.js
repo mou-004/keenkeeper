@@ -5,7 +5,6 @@ import FriendCard from "./FriendCard";
 
 const FriendsList = () => {
   const [loading, setLoading] = useState(true);
-
   useEffect(() => {
     const timer = setTimeout(() => setLoading(false), 200);
     return () => clearTimeout(timer);
