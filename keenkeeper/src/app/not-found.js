@@ -10,10 +10,10 @@ export default function NotFound() {
 
       <div className="mt-4">
         <h2 className="text-3xl font-bold text-gray-800 sm:text-4xl">
-          বস, ভুল জায়গায় চলে এসেছেন!
+         Wrong page!
         </h2>
         <p className="mt-4 text-gray-500 text-lg">
-          আপনি যে পেজটি খুঁজছেন সেটি সালাউদ্দিনের ডাটাবেজে খুঁজে পাওয়া যায়নি।
+         There is no page in DataBase
         </p>
       </div>
 
@@ -22,7 +22,7 @@ export default function NotFound() {
         href="/"
         className="mt-8 px-8 py-3   font-bold   shadow-lg  btn"
       >
-        হোম পেজে ফিরে যান
+        হBack to Home
       </Link>
     </div>
   );
