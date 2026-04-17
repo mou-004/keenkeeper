@@ -16,7 +16,7 @@ const FriendsList = () => {
         <div className="h-64 flex flex-col items-center justify-center gap-4">
           <span className="loading loading-spinner loading-lg text-primary"></span>
           <p className="text-sm font-medium text-gray-400 tracking-widest uppercase">
-            Salauddin...
+               Loading......
           </p>
         </div>
       ) : (
