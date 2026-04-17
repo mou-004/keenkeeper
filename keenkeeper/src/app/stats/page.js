@@ -17,7 +17,7 @@ const StatsPage = () => {
     loadData();
   }, []);
 
-  if (!mounted) return <div className="p-10 text-center">salauddin Loading...</div>;
+  if (!mounted) return <div className="p-10 text-center">Loading...</div>;
 
   const chartData = [
     {
