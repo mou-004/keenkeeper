@@ -51,7 +51,7 @@ const DetailsPage = () => {
               />
             </div>
 
-            <h2 className="text-xl font-black tracking-tight">{friend.name}</h2>
+            <h2 className="text-xl font-black tracking-tight text-black">{friend.name}</h2>
             <div
               className={`inline-block px-4 py-2 rounded-full text-xs font-semibold capitalize shadow-sm ${
                 friend.status === "overdue"
@@ -74,7 +74,7 @@ const DetailsPage = () => {
               ))}
             </div>
 
-            <p className="text-sm text-base-content/60 italic mb-8 leading-relaxed ">
+            <p className="text-sm text-base-content/60 italic mb-8 leading-relaxed text-black ">
               {friend.bio}
             </p>
 
