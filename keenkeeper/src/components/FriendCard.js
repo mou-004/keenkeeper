@@ -8,7 +8,6 @@ const FriendCard = ({ friend }) => {
       <div className="group relative bg-gradient-to-br from-base-100 to-base-200 border border-base-300 rounded-2xl shadow-md hover:shadow-2xl transition duration-300 p-6 text-center overflow-hidden hover:-translate-y-1">
         {/* Glow effect */}
         <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition duration-300 bg-gradient-to-br from-primary/10 to-transparent"></div>
-
         {/* Image */}
         <div className="relative w-20 h-20 mx-auto mb-4">
           <Image
