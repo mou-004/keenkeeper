@@ -29,7 +29,6 @@ const Timeline = () => {
     setData(updated);
     localStorage.setItem("timeline", JSON.stringify(updated));
   };
-
   const filteredData = data.filter(
     (item) =>
       filter === "All" || item.type?.toLowerCase() === filter.toLowerCase(),
